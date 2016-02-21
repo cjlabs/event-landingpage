@@ -75,7 +75,7 @@ input[type="submit"] + .loading,
 .header.header-color .navigation-header .buy-btn.pressed,
 input.header.header-color .navigation-header .buy-btn,
 .header .buy-btn {
-  color: #fe4918;
+	color: #fe4918;
 }
 
 #header{
@@ -148,4 +148,52 @@ input.header.header-color .navigation-header .buy-btn,
 
 .site-wrapper-inner{
 	background: url("../img/back.jpg") top left;
+}
+
+
+
+#map{
+	display: block;
+	width: 100%;
+	height: 450px;
+	margin: 0 auto;
+	-moz-box-shadow: 0px 5px 20px #ccc;
+	-webkit-box-shadow: 0px 5px 20px #ccc;
+	box-shadow: 0px 5px 20px #ccc;
+	position: relative;
+}
+#location{
+	position: relative;
+}
+#location-info{
+	position: absolute;
+	padding: 30px;
+	top: 10px;
+	left: 100px;
+	border-radius: 10px;
+	padding: 55px 25px 45px 25px;
+	line-height: 30px;
+	background: #0d1d31;
+	min-width: 300px;
+}
+
+#location-info .location-detail{
+	text-align: left;
+	font-size: 1.5em;
+}
+
+.body-dark .color .btn-theme {
+	color: #ffffff;
+	background-color: #dc143c;
+	border-color: #dc143c;
+}
+
+#location-info .section-title{
+	font-weight: 900;
+	line-height: 1;
+	margin: 0 0 40px 0;
+	z-index: 0;
+	text-transform: uppercase;
+	display: table;
+	width: 100%;
 }

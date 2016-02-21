@@ -4,6 +4,8 @@
 - [x] find one example for template 
 	-[x] http://vivaco.com/demo/ventcamp/
 	-[x] http://eazzy.me/html/imevent/index-light.html
+	-[x] http://themes.wplook.com/html/conference/index.html
+	-[x] http://eazzy.me/html/imevent/index-dark.html
 - [x] Features
 	- [x] navigation
 		- [] adjust navbar when scroll
