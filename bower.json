@@ -1,0 +1,23 @@
+{
+  "name": "event-landingpage",
+  "homepage": "https://github.com/cjlabs/event-landingpage",
+  "authors": [
+    "puterakahfi <puterakahfi@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.5.0",
+    "jquery.countdown": "^2.1.0",
+    "jquery": "^2.2.0"
+  }
+}

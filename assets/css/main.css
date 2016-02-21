@@ -1,0 +1,151 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1;
+	overflow-x: hidden;
+	/* background: url(../images/layout.png) center top no-repeat; */
+}
+
+
+
+.base-clr-txt,
+.highlight,
+a,
+a:hover,
+a:active,
+a:focus,
+.icon,
+.btn.btn-outline-clr,
+.btn.btn-outline:hover,
+.btn.btn-outline:focus,
+.btn.btn-outline:active,
+.btn.btn-outline.hovered,
+.btn.btn-outline.pressed,
+.btn.btn-white,
+.schedule .tab-content .nav.nav-schedule > li.active > a:not(:hover):not(:active),
+.schedule .tab-content .nav.nav-schedule > li.active > a:hover,
+.schedule .tab-content .nav.nav-schedule > li.active > a:focus,
+.schedule .schedule-item .schedule-item-toggle.collapsed .title .icon,
+.schedule .schedule-item .schedule-item-body .speaker-name,
+.schedule.schedule-light .nav.nav-schedule > li.active a,
+.schedule.schedule-light .nav.nav-schedule > li.active a:hover,
+.schedule.schedule-light .nav.nav-schedule > li.active a:focus,
+.schedule.schedule-light .nav.nav-schedule > li.active a *,
+.schedule.schedule-light .nav.nav-schedule > li.active a:hover *,
+.schedule.schedule-light .nav.nav-schedule > li.active a:focus *,
+.schedule.schedule-light .schedule-item .schedule-item-body .speaker-name,
+.nav.nav-tabs > li.active > a,
+.nav.nav-tabs > li.active > a:hover,
+.nav.nav-tabs > li.active > a:focus,
+.panel-group-alt .panel > a .fa,
+label.error,
+input.btn.btn-outline,
+.pseudo-select .pseudo-select-dropdown-item.selected:not(.disabled),
+input[type="submit"] + .loading,
+.testimonial .author-block .name,
+.package-column .package-title,
+.package-column.special-column .package-price,
+.package-column.package-bright:not(.special-column):hover .package-detail,
+.package-column.package-bright .package-price,
+.package-column.package-bright.special-column .btn:hover,
+.package-column.package-bright.special-column .btn:focus,
+.package-column.package-bright.special-column .btn:active,
+.package-column.package-bright.special-column .btn.hovered,
+.package-column.package-bright.special-column .btn.pressed,
+.counter-box .counter-content > .count,
+.speaker .name,
+.balloon .name,
+.header.header-black .navigation-link:hover,
+.header.header-black .navigation-link:active,
+.header.header-black .navigation-link:focus,
+.header.header-black .navigation-link.active,
+.dropdown:hover .dropdown-toggle,
+.dropdown.open .navigation-link.dropdown-toggle,
+.dropdown.open .navigation-link:not(.active):not(:hover):not(:focus):not(:active).dropdown-toggle,
+.dropdown-menu .navigation-link:hover,
+.dropdown-menu .navigation-link:focus,
+.dropdown-menu .navigation-link:active,
+.navigation-link:hover,
+.navigation-link:active,
+.navigation-link:focus,
+.navigation-link.active,
+.header.header-color .navigation-header .buy-btn:hover,
+.header.header-color .navigation-header .buy-btn:focus,
+.header.header-color .navigation-header .buy-btn:active,
+.header.header-color .navigation-header .buy-btn.hovered,
+.header.header-color .navigation-header .buy-btn.pressed,
+input.header.header-color .navigation-header .buy-btn,
+.header .buy-btn {
+  color: #fe4918;
+}
+
+#header{
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+#header .head-title h1{
+	text-align: left;
+	font-size: 3.5em;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+	padding: 0px;
+	margin: 0px;
+	line-height: 45px;
+}
+
+#header .head-title h2{
+	text-align: left;
+	font-size: 1.5em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+#header .head-title .description{
+	text-align: left;
+	font-size: 1.4 m;
+	padding: 0px;
+	margin: 0px;
+}
+
+#header #countdown{
+	margin-top: 20px;
+	font-size: 2em;
+	text-transform: uppercase;
+	height: 100px;
+}
+
+
+
+.bottom-cover {
+	position: absolute;
+	left: -11px;
+	bottom: -99px;
+	width: 105%;
+	height: 100px;
+	z-index: 20;
+	background-color: #fff;
+	transform: rotate(-4deg);
+	-webkit-transform: rotate(-4deg);
+	transform-origin: 0 0;
+	-webkit-transform-origin: 0 0;
+}
+
+#speakers{
+	background-color: #ffffff;
+}
+
+.covered-white{
+	.background: #ffffff;
+	position: relative;
+	padding-bottom: 1px;
+	z-index: 180;
+}
+
+
+.site-wrapper-inner{
+	background: url("../img/back.jpg") top left;
+}
